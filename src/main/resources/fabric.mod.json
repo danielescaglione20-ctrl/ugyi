@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pearlcatch",
+  "version": "${version}",
+  "name": "PearlCatch Assist",
+  "description": "Client-side: lancia Ender Pearl + Wind Charge in sequenza con un tasto.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.pearlcatch.client.PearlCatchClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
